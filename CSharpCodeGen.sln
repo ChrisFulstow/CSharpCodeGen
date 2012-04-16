@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCodeGen", "CSharpCodeGen\CSharpCodeGen.csproj", "{260B18A6-9192-45C8-A103-8897363A24B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCodeGen.Tests", "CSharpCodeGen.Tests\CSharpCodeGen.Tests.csproj", "{058B3393-1788-4AC2-9253-1B5B5E3EC40C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{260B18A6-9192-45C8-A103-8897363A24B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{260B18A6-9192-45C8-A103-8897363A24B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{260B18A6-9192-45C8-A103-8897363A24B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{260B18A6-9192-45C8-A103-8897363A24B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{058B3393-1788-4AC2-9253-1B5B5E3EC40C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{058B3393-1788-4AC2-9253-1B5B5E3EC40C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{058B3393-1788-4AC2-9253-1B5B5E3EC40C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{058B3393-1788-4AC2-9253-1B5B5E3EC40C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
