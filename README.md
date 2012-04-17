@@ -3,7 +3,7 @@
 
 ### Example
 
-For the purposes of this simple example, consider a simple Vehicle class defined as:
+For the purposes of a simple example, consider a simple Vehicle class defined as:
 
 ```c#
 class Vehicle
@@ -16,9 +16,9 @@ class Vehicle
 	public IEnumerable<Passenger> Passengers { get; set; }
 	public Dictionary<string, decimal> OptionalExtraPrices { get; set; }
 	public IEnumerable<string> PreviousOwners { get; set; }
-}```
-
-Now we can build up and instantiate a new Vehicle with some test values:
+}
+```
+Now we can build up and instantiate a new Vehicle object with some test values:
 
 ```c#
 Vehicle vehicle = new Vehicle();
@@ -55,7 +55,8 @@ vehicle.PreviousOwners = previousOwners;
 string objectInitCode = vehicle.InitializationCode();
 ```
 
-Finally, calling InitializationCode() generates the C# object initialisation code for the object:
+Calling the `InitializationCode` extension method generates the C# object initialisation code for the object.
+The string value of the `objectInitCode` variable is now:
 
 	var vehicle = new Vehicle
 	{
