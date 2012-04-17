@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CollectionInitializerTests.cs" />
+    <Compile Include="ExampleBuilder.cs" />
     <Compile Include="ObjectInitializerTests.cs" />
     <Compile Include="PrimitiveInitializerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
