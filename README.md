@@ -86,3 +86,6 @@ The string value of the `objectInitCode` variable is now:
 		},
 		PreviousOwners = new List<String> { "Carol", "Dave" }
 	};
+
+##License
+CSharpCodeGen is open source under the [The MIT License (MIT)](http://www.opensource.org/licenses/mit-license.php)
